@@ -8,4 +8,8 @@
 7) To scale to more sectors you would need to add more WheelRewardSO in the BonusWheel.RewardData array
 Editor Button Init will automaticlly create icons and position them
 8) Everything scales reasonably well but only for Portrait orientation
-9)This took a whole a day     
+9)This took a whole a day
+10) Performance: 
+      a) Everything is in atlas there is minimal amount of drawcalls.
+      b) Hierarchy is not deep
+      c) Logic will scale without a problem
