@@ -11,8 +11,10 @@ The probability of all sectors does not have to addup to 100(everything will wor
 We can have several identical sectors. 
 Editor Button Init will automaticlly create icons and position them
 9) Everything scales reasonably well but only for Portrait orientation
-9)This took a whole a day
-10) Performance: 
+10) Bonus wheel can be initialized with different sectors (WheelRewardSO) during runtime  
+11) This took a whole a day
+12) Performance: 
       a) Everything is in atlas there is minimal amount of drawcalls.
       b) Hierarchy is not deep
       c) Logic will scale without a problem
+For a simpler variant I could have skipped separation of logic and visuals and done it with 2 scripts BonusWheel&ClaimPopup
